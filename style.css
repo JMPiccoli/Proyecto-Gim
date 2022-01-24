@@ -185,6 +185,7 @@ body {
 
 .contacto-items {
     display: block;
+    text-align: center;
 }
 
 .button-volver {
