@@ -1,0 +1,151 @@
+/* Anidamiento */
+
+
+@import 'components/general';
+@import 'components/header';
+@import 'base/variables';
+
+.carrusel-center {
+    width: 100%;
+    height: 50%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-presentacion {
+    padding-top: 10px;
+    padding-bottom: 50px; 
+    .section-presentacion-items {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+
+        .description-gim {
+            display: inline;
+            /* margin: 0, auto; */
+            /* width: 300px; height: 300px; */
+            /*width: 50%;*/
+            padding: auto;
+            vertical-align: top;
+            display: flex;
+            justify-items: left;
+        }
+
+        .video-description {
+            display: flex;
+            justify-items: right;
+        }
+    }
+}
+
+.section-staff {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+    .format-card {
+        // margin: 20px;
+        // padding: 10%; 
+    }
+}
+
+.section-planes {
+    .section-planes-items {
+        .planes-img {
+            width: 350px; height: 350px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+        .description-planes {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: medium;
+        }
+    }
+}
+
+.grid-container {
+    display: grid;
+    border: 2px solid black;
+    grid-template-rows: repeat(3,40px);
+    grid-template-columns: repeat(6,1fr);
+    margin-bottom: 10%;
+    
+    .grid-items {
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+.carrusel-center {
+    width: 100%;
+    height: 50%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    
+    .carrusel-distribucion {
+        /* border: black solid; */
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+
+        .format-carrousel {
+            width: 20%;
+            height: 80%;
+            padding-top: 15%;
+            border-radius: 15px;
+            display: inline;
+        }
+        
+    }
+}
+
+/* FORMULARIO ACTIVIDADES */
+.actividades-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+
+    .actividades-items {
+        position: relative;
+
+        .actividades-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+    }
+}
+
+
+.actividades-texto-container {
+    display: flex;
+    justify-content: center;
+
+    .actividades-texto-items {
+        /* border: black solid; */
+        width: 100%;
+        display: flex;
+        /* justify-content: space-around; */
+        justify-content: space-evenly;
+
+        /* .actividades-title {
+            position: absolute;
+            bottom: 0;
+            color: white;
+            background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+        } */
+    }
+    
+}
+

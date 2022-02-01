@@ -1,0 +1,32 @@
+.home-fondo {
+    background-color:  #1baeb3;
+    font-family: sans-serif
+}
+
+.titulos-seccion {
+    width: 40em;
+    color: rgb(238, 242, 245);
+    padding-top: 10%;
+    margin: auto;
+    border-right-color: #889ccf;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+
+}
+
+.titulos-animacion {
+    animation: moverTitulos 4s;
+}
+
+@keyframes moverTitulos {
+    from {
+        width: 0;
+        border-right-color: #889ccf;
+    }
+    to {
+        width: 40em;
+        border-right-color: transparent;
+    }
+}

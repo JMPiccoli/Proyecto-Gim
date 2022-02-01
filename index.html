@@ -8,7 +8,7 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Flexgim</title>
 </head>
@@ -73,19 +73,18 @@
     <section class="carrusel-center">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="imagenes/Gimnasio1.jpeg" class="d-block w-auto size-img" alt="Gimnasio 1">
-            </div>
-            <div class="carousel-item">
-                <img src="imagenes/Gimnasio2.jpeg" class="d-block w-auto size-img" alt="Gimnasio 2">
-            </div>
-            <div class="carousel-item">
-                <img src="imagenes/Gimnasio3.jpeg" class="d-block w-auto size-img" alt="Gimnasio 3">
-            </div>
-            <div class="carousel-item">
-                <img src="imagenes/Gimnasio4.jpeg" class="d-block w-auto size-img" alt="Gimnasio 4">
-            </div>
-
+                <div class="carousel-item active">
+                    <img src="imagenes/Gimnasio1.jpeg" class="d-block w-auto size-img" alt="Gimnasio 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/Gimnasio2.jpeg" class="d-block w-auto size-img" alt="Gimnasio 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/Gimnasio3.jpeg" class="d-block w-auto size-img" alt="Gimnasio 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/Gimnasio4.jpeg" class="d-block w-auto size-img" alt="Gimnasio 4">
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -109,26 +108,27 @@
             <video class="video-description" src="Videos/Video_FG4.mp4" controls>
 
         </div>
-
-        </video>
     
     </section>
 
     <section class="section-staff">
-        <!-- Staf / Profes-->
-        <div class="section-staff-items">
-            <img class="format-circle animate-staff" src="imagenes/CEO.jpeg" alt="Santiago Aichino">
-            <img class="format-circle animate-staff" src="imagenes/Profes.jpeg" alt="Agustina Saavedra">
+        <div class="card format-card" style="width: 18rem;">
+          <img src="imagenes/CEO.jpeg" class="card-img-top" alt="CEO">
+          <div class="card-body">
+            <h5 class="card-title">Lic. Santiago Aichino</h5>
+            <p class="card-text">Profesor, Licenciado, Máster en Alto Rendimiento Deportivo</p>
+          </div>
         </div>
-        <div class="section-staff-descripcion">
-            <h3>Santiago Aichino 
-                Profesor, Licenciado, Máster en Alto Rendimiento Deportivo
-            </h3>
-            <h3>Agustina Saavedra 
-                Profesora de Educación Física
-            </h3>    
+        <div class="card format-card" style="width: 18rem;">
+          <img src="imagenes/Profes.jpeg" class="card-img-top" alt="CEO">
+          <div class="card-body">
+            <h5 class="card-title">Agustina Saavedra</h5>
+            <p class="card-text">Profesora de Educación Física</p>
+          </div>
         </div>
+  
     </section>
+  
 
     <h2 id="planes" class="titulos-seccion titulos-animacion">PLANES DE ENTRENAMIENTO</h2>
     <section class="section-planes">
