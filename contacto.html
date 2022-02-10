@@ -26,7 +26,7 @@
         <a class="button-volver" href="index.html">Volver</a>
     </header> -->
 
-    <header>
+    <header class="header-index">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-menu">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
@@ -50,11 +50,14 @@
         <h2 id="planes" class="titulos-seccion">CONTACTO</h2>
     </section>
 
-    <section>
-        <input class="contacto-items" type="Nombre:">
-        <input class="contacto-items" type="Email:">
-        <textarea class="contacto-items" name="Consulta" id="" cols="30" rows="10"></textarea>
-        <input class="contacto-items" type="Teléfono:">
+    <section class="contacto-container">
+      <div class="contacto-items">
+        <input class="contacto-items-uno" type="text" placeholder="Ingrese su nombre">
+        <input class="contacto-items-uno" type="Email:" placeholder="Ingrese su email">
+        <textarea class="contacto-items-uno" name="Consulta" id="" cols="30" rows="10" placeholder="Dejanos tu consulta"></textarea>
+        <input class="contacto-items-uno" type="tel" placeholder="Ingrese su teléfono">
+        <input class="contacto-items-dos" type="submit">
+      </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

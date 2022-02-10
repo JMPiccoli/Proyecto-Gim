@@ -105,6 +105,11 @@
     }
 }
 
+.format-mapa {
+    position: absolute;
+    right: 0;
+}
+
 /* FORMULARIO ACTIVIDADES */
 .actividades-container {
     display: grid;
@@ -151,3 +156,27 @@
     
 }
 
+/* FORMULARIO CONTACTO */
+
+// .contacto-container {
+//     display: block;
+//     text-align: center;
+//   }
+
+  .contacto-items {
+
+    .contacto-items-uno {
+        width: 40%;
+        margin: auto;
+        margin-bottom: 1%;
+        border: rgb(66, 65, 65) solid;
+        display: flex;
+        justify-content: center;
+        // align-content: center;
+    }
+    .contacto-items-dos {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}

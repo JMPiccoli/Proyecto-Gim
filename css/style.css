@@ -1,6 +1,6 @@
 /* Anidamiento */
 .home-fondo {
-  background-color: #1baeb3;
+  background-color: gray;
   font-family: sans-serif;
 }
 
@@ -41,7 +41,7 @@
   display: inline;
 }
 .header-index .bg-menu {
-  background-color: orange;
+  background-color: #3f3a30;
 }
 
 .carrusel-center {
@@ -128,6 +128,11 @@
   display: inline;
 }
 
+.format-mapa {
+  position: absolute;
+  right: 0;
+}
+
 /* FORMULARIO ACTIVIDADES */
 .actividades-container {
   display: grid;
@@ -165,6 +170,21 @@
       margin: 0;
       padding: 10px;
   } */
+}
+
+/* FORMULARIO CONTACTO */
+.contacto-items .contacto-items-uno {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1%;
+  border: #424141 solid;
+  display: flex;
+  justify-content: center;
+}
+.contacto-items .contacto-items-dos {
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
